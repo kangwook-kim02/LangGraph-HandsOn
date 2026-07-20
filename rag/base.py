@@ -4,7 +4,7 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 
 from abc import ABC, abstractmethod
 from operator import itemgetter
-from langchain import hub
+from langchain_classic import hub
 
 
 class RetrievalChain(ABC):
